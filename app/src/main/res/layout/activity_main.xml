@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-50dp"
+            android:scaleType="center"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            app:srcCompat="@drawable/logo_fad" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:text="Fila de Atendimento CAE"/>
+
+        <Button
+            android:id="@+id/btnFilaConvencional"
+            android:layout_width="294dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="5dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="Fila Convencional"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#1D1D1F"
+            android:translationZ="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:strokeColor="#DCDCDC"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/btnFilaPrioritaria"
+            android:layout_width="294dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#FFFFFF"
+            android:elevation="5dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="Fila Prioritária"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#1D1D1F"
+            android:translationZ="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:strokeColor="#DCDCDC"
+            app:strokeWidth="2px" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="75dp"
+            android:text="Rua Marechal Floriano Peixoto, 185"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Centro Histórico - Porto Alegre/RS."
+            />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="2dp"
+            android:text="WhatsApp (51) 3079 9001 | Telefone 3003 0331"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
